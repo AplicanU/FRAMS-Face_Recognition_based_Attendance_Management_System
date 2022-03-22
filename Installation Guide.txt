@@ -1,0 +1,42 @@
+*Recommended: Python 3.8
+
+Before Running The Code, Configure By Installing Following Packages.
+Do Not Delete 
+
+01. haarcascade_frontalface_default.xml
+02. icon (folder)
+03. All The Folder Will Be Created By The Program
+04. Fist Time Opening Of PrograM May Take Time, as all Files Get Loaded.
+
+If you don't have required libraries then first you need to install that.
+
+#OpenCV
+pip install OpenCV-python
+
+#Numpy
+pip install numpy
+
+#Pandas
+pip install pandas
+
+{{{
+		Os
+		pip install os
+
+		Tkinter
+		pip install tkinter
+
+}}}Don't install these Packages If You Are Using Pycharm,Its Already Installed by Default. 
+   Skip This
+
+#Pillow
+pip install Pillow
+
+opencv-contrib-python
+pip install opencv-contrib-python
+
+#PyQt5
+pip install PyQt5
+
+# For Creating Executable file goto terminal and run the following code
+# pyinstaller.exe --onefile -w --icon=icon\FRAMS_icon.ico AttendanceSystem.py
